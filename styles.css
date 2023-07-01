@@ -1,0 +1,140 @@
+/* Global Styles */
+body {
+    background-color: green;
+}
+/* Set up CSS Grid */
+#home {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}   
+
+/* Style each section within the grid */
+#home section {
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: grey;
+}
+
+/* Updated gallery CSS */
+#gallery {
+    text-align: center;
+}
+
+#gallery .image-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+#gallery .image-grid img {
+    width: 30%;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Hide the courses initially */
+#course-list {
+    display: none;
+}
+
+/* Style the courses */
+#course-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#course-list li {
+    margin-bottom: 10px;
+}
+/* Additional section styles */
+#achievements {
+    background-color: #fff;
+    padding: 20px;
+}
+
+#achievements h2 {
+    text-align: center;
+}
+
+#achievements .achievement {
+    margin-bottom: 20px;
+}
+
+#staff {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+#staff h2 {
+    text-align: center;
+}
+
+#staff .staff-member {
+    margin-bottom: 20px;
+}
+
+#events {
+    background-color: #fff;
+    padding: 20px;
+}
+
+#events h2 {
+    text-align: center;
+}
+
+#events .event {
+    margin-bottom: 20px;
+}
+
+#facilities {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+#facilities h2 {
+    text-align: center;
+}
+
+#facilities .facility {
+    margin-bottom: 20px;
+}
+
+#alumni {
+    background-color: #fff;
+    padding: 20px;
+}
+
+#alumni h2 {
+    text-align: center;
+}
+
+#alumni .alumni {
+    margin-bottom: 20px;
+}
+
+#parent-resources {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+#parent-resources h2 {
+    text-align: center;
+}
+
+#parent-resources .resource {
+    margin-bottom: 20px;
+}
+
+#faq {
+    background-color: #fff;
+    padding: 20px;
+}
+
+#faq h2 {
+    text-align: center;
+}
+
+#faq .question {
+    margin-bottom: 20px;
+}
+</style>
